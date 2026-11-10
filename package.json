@@ -1,0 +1,42 @@
+{
+  "name": "@brightdata/opencode-brightdata",
+  "version": "1.0.0",
+  "description": "Bright Data plugin for OpenCode - web scraping, search, structured data extraction from 40+ platforms via the Bright Data CLI",
+  "type": "module",
+  "main": "index.ts",
+  "files": [
+    "index.ts",
+    "skills"
+  ],
+  "keywords": [
+    "opencode",
+    "opencode-plugin",
+    "brightdata",
+    "bright-data",
+    "web-scraping",
+    "search",
+    "serp",
+    "structured-data",
+    "data-extraction",
+    "proxy",
+    "llm",
+    "ai"
+  ],
+  "license": "MIT",
+  "author": {
+    "name": "Bright Data"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nichochar/opencode-brightdata"
+  },
+  "homepage": "https://brightdata.com",
+  "scripts": {
+    "check": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@opencode-ai/plugin": "^1.0.0",
+    "@types/node": "^25.2.2",
+    "typescript": "^5.0.0"
+  }
+}
